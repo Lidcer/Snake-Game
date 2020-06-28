@@ -1,0 +1,25 @@
+{
+  "name": "snake-game",
+  "version": "1.0",
+  "description": "Simple snake game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "build:w": "webpack --watch --progress",
+    "webpack-dev:watch": "webpack webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lidcer/Snake-Game.git"
+  },
+  "author": "Lidcer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lidcer/Snake-Game/issues"
+  },
+  "homepage": "https://github.com/Lidcer/Snake-Game#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+  }
+}
